@@ -31,7 +31,9 @@ body {
 #about{
   background-image: url(static/bg10.jpg);
   background-repeat: no-repeat;
-  padding: 50px 20px 80px 20px;
+  padding: 50px 20px;
+  background-size: cover;
+  background-attachment: fixed;
  
 }
 /* About text style */
@@ -86,4 +88,18 @@ body {
 /* Spacing between project cards */
 #projects .col-md-4 {
   margin-bottom: 30px;
+}
+@media (max-width: 576px) {
+  .skill-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .skills-container .col-4 {
+    flex: 0 0 33.3333%; /* 3 per row on mobile */
+    max-width: 33.3333%;
+  }
+}
+section {
+  overflow: auto;
 }
