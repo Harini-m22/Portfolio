@@ -44,16 +44,13 @@ body {
 }
 
 /* Skill image styles */
-/* .skill-icon {
+.skill-icon {
   width: 70px;
   height: 60px;
   object-fit: contain;
   margin-bottom: 10px;
-} */
-.skill-icon {
-  display: block;
-  margin: 0 auto 8px;
 }
+
 
 
 /* Responsive Skill Rows */
@@ -94,15 +91,15 @@ body {
 #projects .col-md-4 {
   margin-bottom: 30px;
 }
-/* Default layout for larger screens (desktop/tablet) */
-.skills-container .col-4 {
+/* Default layout for larger screens (desktop/tablet) *//* 7 columns per row (100 / 7) */
+/* .skills-container .col-4 {
   flex: 0 0 auto;
-  width: 14.2857%; /* 7 columns per row (100 / 7) */
+  width: 14.2857%; 
   max-width: 14.2857%;
-}
+} */
 
 /* On small screens, make it 3 icons per row */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .skills-container .col-4 {
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
@@ -112,7 +109,7 @@ body {
     width: 40px;
     height: 40px;
   }
-}
+} */
 
 /* section {
   overflow: auto;
