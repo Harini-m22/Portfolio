@@ -92,14 +92,14 @@ body {
   margin-bottom: 30px;
 }
 /* Default layout for larger screens (desktop/tablet) *//* 7 columns per row (100 / 7) */
-/* .skills-container .col-4 {
+.skills-container .col-4 {
   flex: 0 0 auto;
   width: 14.2857%; 
   max-width: 14.2857%;
-} */
+}
 
 /* On small screens, make it 3 icons per row */
-/* @media (max-width: 768px) {
+@media (max-width: 768px) {
   .skills-container .col-4 {
     flex: 0 0 33.3333%;
     max-width: 33.3333%;
@@ -109,8 +109,8 @@ body {
     width: 40px;
     height: 40px;
   }
-} */
+}
 
-/* section {
+section {
   overflow: auto;
-} */
+}
