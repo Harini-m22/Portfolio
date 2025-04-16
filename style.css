@@ -44,12 +44,17 @@ body {
 }
 
 /* Skill image styles */
-.skill-icon {
+/* .skill-icon {
   width: 70px;
   height: 60px;
   object-fit: contain;
   margin-bottom: 10px;
+} */
+.skill-icon {
+  display: block;
+  margin: 0 auto 8px;
 }
+
 
 /* Responsive Skill Rows */
 .skills-container .row {
