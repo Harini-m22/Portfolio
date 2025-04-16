@@ -89,17 +89,26 @@ body {
 #projects .col-md-4 {
   margin-bottom: 30px;
 }
-@media (max-width: 576px) {
+/* Default layout for larger screens (desktop/tablet) */
+.skills-container .col-4 {
+  flex: 0 0 auto;
+  width: 14.2857%; /* 7 columns per row (100 / 7) */
+  max-width: 14.2857%;
+}
+
+/* On small screens, make it 3 icons per row */
+@media (max-width: 768px) {
+  .skills-container .col-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+
   .skill-icon {
     width: 40px;
     height: 40px;
   }
-
-  .skills-container .col-4 {
-    flex: 0 0 33.3333%; /* 3 per row on mobile */
-    max-width: 33.3333%;
-  }
 }
+
 /* section {
   overflow: auto;
 } */
